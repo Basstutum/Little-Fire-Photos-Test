@@ -82,7 +82,7 @@ body {
 
 
 .icon-menu:hover {
-    color: coral;
+    color: yellow;
 }
 
 .icon-menu i {
@@ -95,9 +95,17 @@ body {
     display: inline;
 }
 
+
+.navbar-fixed-bottom img {
+    display: inline;
+    width: 60%;
+    margin: auto;
+}
+
 .navbar-fixed-bottom ul {
     padding-top: 10px;
-    padding-left: 100px;
+    padding-left: 250px;
+    padding-bottom: 10px;
     width: 60%;
     margin: auto;
 }
@@ -108,27 +116,30 @@ body {
     position: absolute;
     bottom: 1px;
     right: 10px;
-    font-size: 20px;
-    font-family: Neon;
-    color: darkviolet;
+    font-size: 15px;
     padding-top: 10px;
     display: inline;
-    -webkit-animation: glow 4s infinite alternate;
   
 }
 
 #creator {
-    font-size: 20px;
-    font-family: Neon;
-    color: darkviolet;
+    font-size: 15px;
     padding-top: 10px;
     display: inline;
     text-decoration: none;
-    -webkit-animation: glow 4s infinite alternate;
 }
 
-@-webkit-keyframes glow {
-    to {
-        text-shadow: 0 0 1px aqua;
-    }
+#Face {
+    height: 30px;
+    width: 30px;
+}
+
+#Insta {
+    height: 29px;
+    width: 29px;
+}
+
+#Twit {
+    height: 27px;
+    width: 27px;
 }
