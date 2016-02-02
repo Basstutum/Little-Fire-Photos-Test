@@ -26,14 +26,6 @@ body {
           background-size: cover;
 }
 
-.jumbotron h1 {
-    
-}
-
-.brand {
-    padding-right: 10px;
-}
-
 
 /* Menu */
 .menu ul {
@@ -85,19 +77,9 @@ body {
   padding-top: 25px;
   text-decoration: none;
   text-transform: uppercase;
+  width: 100px;
 }
 
-.brand {
-  color: #fff;
-  cursor: pointer;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  padding-bottom: 25px;
-  padding-left: 25px;
-  padding-top: 25px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
 
 .icon-menu:hover {
     color: coral;
@@ -115,4 +97,38 @@ body {
 
 .navbar-fixed-bottom ul {
     padding-top: 10px;
+    padding-left: 100px;
+    width: 60%;
+    margin: auto;
+}
+
+.navbar-fixed-bottom h1 {
+    padding-top: 10px;
+    display: inline;
+    position: absolute;
+    bottom: 1px;
+    right: 10px;
+    font-size: 20px;
+    font-family: Neon;
+    color: darkviolet;
+    padding-top: 10px;
+    display: inline;
+    -webkit-animation: glow 4s infinite alternate;
+  
+}
+
+#creator {
+    font-size: 20px;
+    font-family: Neon;
+    color: darkviolet;
+    padding-top: 10px;
+    display: inline;
+    text-decoration: none;
+    -webkit-animation: glow 4s infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    to {
+        text-shadow: 0 0 1px aqua;
+    }
 }
