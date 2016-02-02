@@ -1,0 +1,118 @@
+/* Initial body */
+body {
+  left: 0;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Initial menu */
+.menu {
+  background: #202024 url('img/LFP S3.jpg') no-repeat;
+  left: -285px;  
+  height: 100%;
+  position: fixed;
+  width: 285px;
+}
+
+/* Basic styling */
+
+.jumbotron {
+  background-image: url('img/LFP Background.jpg'); 
+  height: 100%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+.jumbotron h1 {
+    
+}
+
+.brand {
+    padding-right: 10px;
+}
+
+
+/* Menu */
+.menu ul {
+  border-top: 1px solid magenta;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid magenta;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.menu a:hover {
+	color: magenta;
+	text-decoration: underline;
+}
+
+.icon-close {
+  cursor: pointer;
+    color: #fff;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.icon-close:hover {
+    color: magenta;
+}
+
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.brand {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-menu:hover {
+    color: coral;
+}
+
+.icon-menu i {
+  margin-right: 5px;
+}
+
+
+/* Navbar */
+.navbar-fixed-bottom li {
+    display: inline;
+}
+
+.navbar-fixed-bottom ul {
+    padding-top: 10px;
+}

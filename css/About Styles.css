@@ -1,0 +1,35 @@
+.container {
+    position: relative;
+}
+
+
+.container img {
+    height: 400px auto;
+    width: 200px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.jumbotron p {
+    width: 500px;
+    overflow: hidden;
+    word-wrap: normal;
+    display: block;
+}
+
+.jumbotron .container {
+    background-image: url('img/LFP S3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px, auto;
+    height: 500px;
+}
+
+.jumbotron h1 {
+    color: #fff;
+}
+
+.jumbotron p {
+    color: #fff;
+}
